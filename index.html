@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Start</title>
+    </head>
+<style>
+
+@font-face {
+    font-family: old;
+    src: url(old.ttf);
+}
+
+
+pre {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 35px;
+    display: block;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    font-family: old;
+    line-height: 40px;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.button {
+    background-color: red;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: red(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #39739d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+
+  .button:hover,
+  .button:focus {
+    background-color: red;
+    color: #2c5777;
+  }
+  
+  .button:focus {
+    box-shadow: 0 0 0 4px red(0, 149, 255, .15);
+  }
+  
+  .button:active {
+    background-color: #a0c7e4;
+    box-shadow: none;
+    color: #2c5777;
+  }
+
+  html, body, .container {
+    height: 100%;
+    background: url(start.png);
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    line-height: 40px;
+    background-color: #000;
+    text-align: center;
+}
+
+.container {
+    
+    text-align: center;
+}
+.container > pre {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin-top: -9px;
+    font-size: 30px;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <h1>Dear Riezel</h1>
+<pre>
+Please read all pages.
+
+Click the button to go next page.
+</pre>
+
+<a href= "Page1.html"><button class="button-8" role="button">Chapter 1</button></a>
+<audio autoplay src="song/13.mp3"></audio>
+</body>
+</html>
